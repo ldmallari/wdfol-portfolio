@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+    background: rgb(20,12,28);
+    background: linear-gradient(47deg, rgba(20,12,28,1) 91%, rgba(30,16,53,1) 96%, rgba(34,17,63,1) 98%, rgba(54,27,104,1) 100%, rgba(42,20,84,1) 100%, rgba(83,46,155,1) 100%, rgba(135,80,247,1) 100%);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Sora", serif;
+}
+
+/* HERO SECTION */
+
+#heropage{
+    background: transparent;
+}
+#hero-btns{
+    gap: 30px;
+}
+.herohdr{
+    font-size: 65px;
+    font-weight: bold;
+    background-image: linear-gradient(
+		to right,
+		#8750f7 0%,
+		#ffffff 100%
+	);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hero-img img{
+    border: 2px solid #2a1454;
+    border-radius: 50px;
+    height: auto;
+    max-width: 75%;
+    transform: rotate(4.29deg);
+    transition: 0.3s;
+}
+#hero-img img:hover{
+    transform: rotate(0deg);
+    border: 2px solid #8750f7;
+}
+#about-btn{
+    border: 1px solid #8750f7;
+    border-radius: 100px;
+    background: transparent;
+    color: #8750f7;
+    font-size: 15px;
+    padding: 17px 35px;
+}
+#about-btn:hover{
+    background: #8750f7;
+    border: 1px solid #8750f7;
+    color: white;
+}
+#dl-resume{
+    background: #8750f7;
+    border: 1px solid #8750f7;
+    border-radius: 100px;
+    padding: 17px 35px;
+    font-size: 15px;
+}
+#dl-resume:hover{
+    border: 1px solid #8750f7;
+    background: transparent;
+    color: #8750f7;
+}
+#social-i{
+    color: white;
+}
+.facebook{
+    border: 1px solid white;
+    border-radius: 100px;
+    width: auto;
+    height: 20px;
+    padding: 6px 10px;
+}
+.facebook:hover{
+    color: #8750f7;
+    border: 2px solid #8750f7;
+}
+.github{
+    border: 1px solid white;
+    border-radius: 100px;
+    width: auto;
+    height: 20px;
+    padding: 6px 7px;
+}
+.github:hover{
+    color: #8750f7;
+    border: 2px solid #8750f7;
+}
+.linkedin{
+    border: 1px solid white;
+    border-radius: 100px;
+    width: auto;
+    height: 20px;
+    padding: 6px 8px;
+}
+.linkedin:hover{
+    color: #8750f7;
+    border: 2px solid #8750f7;
+}
+#test-anim{
+    animation: isout 5s ease-in-out infinite alternate;
+    top: 100px;
+    
+}
+@keyframes isout {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(2.0);
+    }
+}

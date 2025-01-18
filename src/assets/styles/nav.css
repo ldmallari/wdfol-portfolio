@@ -1,0 +1,17 @@
+a img{
+    max-width: 110px;
+}
+header{
+    background: transparent!important;
+}
+#nav-huver{
+    color: white!important;
+    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(42,20,84,1) 53%) var(--p, 0) 100% /var(--d, 0) 2px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+    font-size: 15px;
+}
+#nav-huver:hover{
+    --d: 100%;
+    --p: 100%;
+}
