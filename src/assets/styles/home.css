@@ -45,6 +45,7 @@ body{
     color: #8750f7;
     font-size: 15px;
     padding: 17px 35px;
+    transition: 1s;
 }
 #about-btn:hover{
     background: #8750f7;
@@ -57,6 +58,7 @@ body{
     border-radius: 100px;
     padding: 17px 35px;
     font-size: 15px;
+    transition: 1s;
 }
 #dl-resume:hover{
     border: 1px solid #8750f7;
