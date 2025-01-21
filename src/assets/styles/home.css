@@ -106,11 +106,6 @@ body{
     color: #8750f7;
     border: 1px solid #8750f7;
 }
-#test-anim{
-    animation: isout 5s ease-in-out infinite alternate;
-    top: 100px;
-    
-}
 .hero-texts{
     display: flex;
     color: #DDDDDD;
@@ -128,14 +123,4 @@ body{
 .head-par p{
     font-size: 16px;
     padding-left: 10px;
-}
-
-
-@keyframes isout {
-    0% {
-        transform: scale(1.0);
-    }
-    100% {
-        transform: scale(2.0);
-    }
 }

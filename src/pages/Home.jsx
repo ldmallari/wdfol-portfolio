@@ -3,7 +3,31 @@ import Portfolio from './Portfolio';
 import '../assets/styles/home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { useState, useEffect } from 'react';
 
+const Counter = ({ start = 0, end, duration = 1000 }) => {
+    const [count, setCount] = useState(start);
+  
+    useEffect(() => {
+      let startTime = null;
+  
+      const step = (timestamp) => {
+        if (!startTime) startTime = timestamp;
+        const progress = Math.min((timestamp - startTime) / duration, 1);
+        setCount(Math.floor(progress * (end - start) + start));
+  
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+  
+      window.requestAnimationFrame(step);
+  
+      return () => window.cancelAnimationFrame(step);
+    }, [start, end, duration]);
+  
+    return <h1>{count}</h1>;
+  };
 export default function Home() {
     return (
         <>
@@ -40,21 +64,21 @@ export default function Home() {
                         <div className="flex items-center space-x-4" id='social-i'>
                             <a href="https://www.facebook.com/levin.mallari" target='_blank'><FontAwesomeIcon icon={faFacebookF} className="facebook"/></a>
                             <a href="https://github.com/ldmallari" target='_blank'><FontAwesomeIcon icon={faGithub} className="github"/></a>
-                            <a href="www.linkedin.com/in/levin-mallari" target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className="linkedin"/></a>
+                            <a href="https://www.linkedin.com/in/levin-mallari/" target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className="linkedin"/></a>
                         </div>
                         </ul>
                         <div className="clients pt-10"/>
                         <div className='hero-texts'>
                             <div className='head-par'>
-                            <h1>4</h1>
+                            <Counter end={4}/>
                             <p>Years of Experience</p>
                             </div>
                             <div className='head-par'>
-                            <h1>20+</h1>
+                            <Counter end={20}/><h1>+</h1>
                             <p>Project Completed</p>
                             </div>
                             <div className='head-par'>
-                            <h1>50+</h1>
+                            <Counter end={50}/><h1>+</h1>
                             <p>Happy Clients</p>
                             </div>
                         </div>
@@ -69,43 +93,10 @@ export default function Home() {
                             alt="hero"
                             className="max-w-auto lg:ml-auto"
                         />
-                        <span className="absolute -top-25 -left-8 z-[-1]" id='test-anim'>
-                            <svg
-                            width="93"
-                            height="93"
-                            viewBox="0 0 93 93"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            >
-                            <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
-                            <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
-                            <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
-                            <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
-                            <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
-                            <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
-                            <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
-                            <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
-                            <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
-                            <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
-                            <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
-                            <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
-                            <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
-                            <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
-                            <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
-                            <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
-                            <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
-                            <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
-                            <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
-                            <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
-                            <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
-                            <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
-                            <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
-                            <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
-                            <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
-                            </svg>
-                        </span>
                         </div>
                     </div>
+            
+
                     </div>
                 </div>
                 </div>
