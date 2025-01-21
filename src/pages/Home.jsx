@@ -10,7 +10,7 @@ export default function Home() {
             <Nav/>
             <div className="relative bg-white pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]" id="heropage">
                 <div className="container">
-                <div className="-mx-4 flex flex-wrap">
+                <div className="-mx-4 flex">
                     <div className="w-full px-4 lg:w-5/12">
                     <div className="hero-content">
                         <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-[#DDDDDD] sm:text-[42px] lg:text-[40px] xl:text-1xl">
@@ -37,13 +37,13 @@ export default function Home() {
                             Download Resume
                             </a>
                         </li>
+                        <div className="flex items-center space-x-4" id='social-i'>
+                            <a href="https://www.facebook.com/levin.mallari" target='_blank'><FontAwesomeIcon icon={faFacebookF} className="facebook"/></a>
+                            <a href="https://github.com/ldmallari" target='_blank'><FontAwesomeIcon icon={faGithub} className="github"/></a>
+                            <a href="www.linkedin.com/in/levin-mallari" target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className="linkedin"/></a>
+                        </div>
                         </ul>
                         <div className="clients pt-10">
-                        <div className="flex items-center space-x-4" id='social-i'>
-                            <FontAwesomeIcon icon={faFacebookF} className="facebook"/>
-                            <FontAwesomeIcon icon={faGithub} className="github"/>
-                            <FontAwesomeIcon icon={faLinkedinIn} className="linkedin"/>
-                        </div>
                         </div>
                     </div>
                     </div>

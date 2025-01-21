@@ -8,12 +8,14 @@ body{
 }
 
 /* HERO SECTION */
-
+.hero-content{
+    width: 628px;
+}
 #heropage{
     background: transparent;
 }
 #hero-btns{
-    gap: 30px;
+    gap: 20px;
 }
 .herohdr{
     font-size: 65px;
@@ -74,10 +76,11 @@ body{
     width: auto;
     height: 20px;
     padding: 6px 10px;
+    transition: 1s;
 }
 .facebook:hover{
     color: #8750f7;
-    border: 2px solid #8750f7;
+    border: 1px solid #8750f7;
 }
 .github{
     border: 1px solid white;
@@ -85,10 +88,11 @@ body{
     width: auto;
     height: 20px;
     padding: 6px 7px;
+    transition: 1s;
 }
 .github:hover{
     color: #8750f7;
-    border: 2px solid #8750f7;
+    border: 1px solid #8750f7;
 }
 .linkedin{
     border: 1px solid white;
@@ -96,16 +100,21 @@ body{
     width: auto;
     height: 20px;
     padding: 6px 8px;
+    transition: 1s;
 }
 .linkedin:hover{
     color: #8750f7;
-    border: 2px solid #8750f7;
+    border: 1px solid #8750f7;
 }
 #test-anim{
     animation: isout 5s ease-in-out infinite alternate;
     top: 100px;
     
 }
+
+
+
+
 @keyframes isout {
     0% {
         transform: scale(1.0);
