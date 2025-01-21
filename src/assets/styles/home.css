@@ -111,8 +111,24 @@ body{
     top: 100px;
     
 }
-
-
+.hero-texts{
+    display: flex;
+    color: #DDDDDD;
+    padding: 60px 60px 0px 60px;
+    gap: 60%;
+}
+.head-par{
+    display: flex;
+    align-items: center;
+}
+.head-par h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.head-par p{
+    font-size: 16px;
+    padding-left: 10px;
+}
 
 
 @keyframes isout {

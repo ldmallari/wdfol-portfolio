@@ -43,7 +43,20 @@ export default function Home() {
                             <a href="www.linkedin.com/in/levin-mallari" target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className="linkedin"/></a>
                         </div>
                         </ul>
-                        <div className="clients pt-10">
+                        <div className="clients pt-10"/>
+                        <div className='hero-texts'>
+                            <div className='head-par'>
+                            <h1>4</h1>
+                            <p>Years of Experience</p>
+                            </div>
+                            <div className='head-par'>
+                            <h1>20+</h1>
+                            <p>Project Completed</p>
+                            </div>
+                            <div className='head-par'>
+                            <h1>50+</h1>
+                            <p>Happy Clients</p>
+                            </div>
                         </div>
                     </div>
                     </div>
