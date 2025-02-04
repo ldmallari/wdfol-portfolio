@@ -1,0 +1,29 @@
+#c-icons{
+    border-radius: 50px;
+}
+.divcInput{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.divcInput input{
+    transition: all 0.3s 0s ease-out;
+    padding: 12px 17px;
+}
+#c-tarea{
+    transition: all 0.3s 0s ease-out;
+}
+#cButton {
+    background: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 35px;
+    color: white;
+    cursor: pointer;
+    background-size: 200% 100%;
+    transition: background-position 0.4s ease;
+}
+
+#cButton:hover {
+    background-position: right;
+}
