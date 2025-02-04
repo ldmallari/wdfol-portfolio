@@ -180,12 +180,48 @@ const ContactTextArea = ({ row, placeholder, name, value, onChange}) => {
 };
 const sendMessageToDiscord = async (formData) => {
     const webhookURL = 'https://discord.com/api/webhooks/1336259705583964161/Rx5R-3c3GX4bScPRqoKAkWGs8XQrOAbfqMZG_c8OoalXVBpv4oKebo3zWf_mMnFaZIvT';
-    const formDatas = formData;
-    values = Object.fromEntries(formDatas.entries());
+    const firstEntry = Object.values(formData);
+    console.log(firstEntry[1]);
+
+    const embed = {
+        title: "📩 New Message Received",
+        description: "<:verified_purple:1336338185906819132> You've received a new message from your website's contact page.",
+        fields: [
+            { name: "First name", value: "* "+firstEntry[0], inline: true },
+            { name: "Last name", value: "* "+firstEntry[1], inline: true },
+            { name: "\u200B", value: "\u200B", inline: true },
+            { name: "Email address", value: "* "+firstEntry[2], inline: true },
+            { name: "Phone number", value: "* "+firstEntry[3], inline: true },
+            { name: "\u200B", value: "\u200B", inline: true },
+            { name: "Message", value: "* "+firstEntry[4], inline: false },
+        ],
+        color: 0x8750f7,
+        thumbnail: {
+            url: "https://i.postimg.cc/KvLdgdcC/Untitled-design-9.png",
+        },
+        image: {
+            url: "https://share.creavite.co/67a2003e0ae0e4f686a68e00.gif",
+        },
+        timestamp: new Date().toISOString(),
+        footer: {
+            text: "http://localhost:5173/",
+            icon_url: "https://i.postimg.cc/rpNKQnVp/freepik-expand-95827.png",
+        },
+    };
+
+    const payload = {
+        username: "LDM - Portfolio",
+        avatar_url: "https://i.postimg.cc/rpNKQnVp/freepik-expand-95827.png",
+        embeds: [embed],
+    };
+
     try {
-      await axios.post(webhookURL, { content: values });
+        await axios.post(webhookURL, payload, {
+            headers: { "Content-Type": "application/json" }
+        });
+        console.log("Message sent successfully!");
     } catch (error) {
-      console.error('Error sending message to Discord:', error);
+        console.error("Error sending message to Discord:", error);
     }
 };
 const ContactInputBox = ({ type, placeholder, name, value, onChange}) => {
