@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Nav from './Nav';
 import '../assets/styles/contact.css';
 import axios from 'axios';
 const Contact = () => {
@@ -19,6 +20,9 @@ const Contact = () => {
       };
   return (
     <>
+      <div className="contactB0dy">
+        <Nav/>
+      </div>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-[#050709] lg:py-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
@@ -184,8 +188,8 @@ const sendMessageToDiscord = async (formData) => {
     console.log(firstEntry[1]);
 
     const embed = {
-        title: "📩 New Message Received",
-        description: "<:verified_purple:1336338185906819132> You've received a new message from your website's contact page.",
+        title: "New Message Received",
+        description: "You've received a new message from your website's contact page <:verified_purple:1336338185906819132>",
         fields: [
             { name: "First name", value: "* "+firstEntry[0], inline: true },
             { name: "Last name", value: "* "+firstEntry[1], inline: true },

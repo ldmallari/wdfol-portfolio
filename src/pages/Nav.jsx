@@ -37,12 +37,12 @@ const Nav = () => {
                 } `}
               >
                 <ul className="block lg:flex">
-                  <ListItem NavLink="/#">About</ListItem>
+                  <ListItem NavLink="/about">About</ListItem>
                   <ListItem NavLink="/#">Services</ListItem>
                   <ListItem NavLink="/#">Works</ListItem>
                   <ListItem NavLink="/#">Skills</ListItem>
                   <ListItem NavLink="/#">Testimonials</ListItem>
-                  <ListItem NavLink="/#">Contact</ListItem>
+                  <ListItem NavLink="/contact">Contact</ListItem>
                 </ul>
               </nav>
             </div>
