@@ -83,11 +83,11 @@ const Contact = () => {
                 </form>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12" id="c-csection">
             <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-[transparent] sm:p-12">
 
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div id="c-icons" className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div id="c-cicons" className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-[#8750f7] sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width="32"
                       height="32"
@@ -127,7 +127,7 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div id="c-icons" className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div id="c-cicons" className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-[#8750f7] sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width="32"
                       height="32"

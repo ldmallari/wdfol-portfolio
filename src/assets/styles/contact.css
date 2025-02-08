@@ -1,4 +1,4 @@
-#c-icons{
+#c-cicons{
     border-radius: 50px;
 }
 .divcInput{
@@ -7,11 +7,11 @@
     margin-bottom: 10px;
 }
 .divcInput input{
-    transition: all 0.3s 0s ease-out;
+    transition: all 1s 0s ease-out;
     padding: 12px 17px;
 }
 #c-tarea{
-    transition: all 0.3s 0s ease-out;
+    transition: all 1s 0s ease-out;
 }
 #cButton {
     background: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
@@ -23,7 +23,9 @@
     background-size: 200% 100%;
     transition: background-position 0.4s ease;
 }
-
 #cButton:hover {
     background-position: right;
+}
+#c-csection{
+    align-self: center;
 }

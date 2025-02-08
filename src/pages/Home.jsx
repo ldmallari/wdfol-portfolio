@@ -33,7 +33,7 @@ export default function Home() {
     return (
         <>
             <Nav/>
-            <div className="relative bg-white pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]" id="heropage">
+            <div className="relative bg-white pb-[90px] pt-[120px] dark:bg-dark lg:pt-[150px]" id="heropage">
                 <div className="container">
                 <div className="-mx-4 flex">
                     <div className="w-full px-4 lg:w-5/12">
