@@ -18,6 +18,20 @@
     align-items: center;
     border-radius: 25px;
     margin-bottom: 25px;
+    transition: ease-in-out 0.5s;
+    border: 1px solid transparent;
+}
+.l-boxes:hover{
+    border: 1px solid #8750f7;
+    background-color: rgba(135, 80, 247, 0.3);
+    
+}
+.l-boxes:hover .lbox-img{
+    transform: scale(1.1);
+    filter: none;
+}
+.l-boxes:hover #txt-percent{
+    color: #8750f7;
 }
 .l-boxes p{
     font-size: 26px;
@@ -29,6 +43,8 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    transition: ease-in 0.2s;
+    filter: grayscale(90%);
 }
 .skills{
     justify-content: center;
