@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 #portfolio-sec{
-    background: rgb(135,80,247);
-    background: radial-gradient(circle, rgba(135,80,247,1) 0%, rgba(124,74,225,1) 0%, rgba(112,68,200,1) 0%, rgba(93,59,164,1) 0%, rgba(102,63,181,1) 0%, rgba(54,34,91,1) 0%, rgba(31,19,48,1) 16%, rgba(20,12,28,1) 35%);
+    background: #0F0715;
     background-repeat: no-repeat;
     font-family: "Sora", serif;
 }

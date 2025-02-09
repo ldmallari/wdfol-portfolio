@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
 body{
-    background: rgb(20,12,28);
-    background: linear-gradient(47deg, rgba(20,12,28,1) 91%, rgba(30,16,53,1) 96%, rgba(34,17,63,1) 98%, rgba(54,27,104,1) 100%, rgba(42,20,84,1) 100%, rgba(83,46,155,1) 100%, rgba(135,80,247,1) 100%);
+    background: #0F0715;
     max-height: 100vh;
     background-repeat: no-repeat;
     font-family: "Sora", serif;
 }
-
 /* HERO SECTION */
+#mb-img{
+    display: none;
+    transition: ease-in-out 1s;
+}
 .hero-content{
+    max-width: 100%;
     width: 628px;
 }
 #heropage{
@@ -17,8 +21,11 @@ body{
 #hero-btns{
     gap: 20px;
 }
+#herosp{
+    font-size: clamp(0.7rem, -0.475rem + 6vw, 2.5rem);
+}
 .herohdr{
-    font-size: 65px;
+    font-size: clamp(1rem, -1.4rem + 8.333vw, 3.1rem);
     font-weight: bold;
     background-image: linear-gradient(
 		to right,
@@ -40,6 +47,7 @@ body{
     transform: rotate(0deg);
     border: 2px solid #8750f7;
 }
+
 #about-btn{
     border: 1px solid #8750f7;
     border-radius: 100px;
@@ -106,21 +114,106 @@ body{
     color: #8750f7;
     border: 1px solid #8750f7;
 }
+.faDownload{
+    display: none;
+    transition: ease-in-out 1s;
+}
 .hero-texts{
     display: flex;
     color: #DDDDDD;
-    padding: 60px 60px 0px 60px;
-    gap: 60%;
+    align-content: center;
+    justify-content: center;
+    max-width: 200px;
+    width: 100%;
+}
+#exp-section{
+    width: 75%;
+    justify-content: space-between;
+}
+.exps{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
 }
 .head-par{
     display: flex;
     align-items: center;
 }
 .head-par h1{
-    font-size: 64px;
+    font-size: clamp(0.2rem, 0.2rem + 6vw, 3rem)!important;
     font-weight: 600;
 }
 .head-par p{
-    font-size: 16px;
+    font-size: clamp(0.7rem, -1.65rem + 6vw, 1.05rem)!important;
     padding-left: 10px;
+}
+.testcounter{
+    display: flex;
+}
+.btn-socials{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+}
+.btn-socials li a{
+    font-size: clamp(0.7rem, -1.1rem + 6vw, 0.95rem)!important;
+}
+@media (min-width: 720px) {
+    .lg\:w-5\/12 {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .head-par h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .head-par p{
+        font-size: 16px;
+    }
+    .head-par{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .testcounter{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 719px) {
+    #mb-img{
+        display: block;
+    }
+    #desk-img{
+        display: none;
+    }
+    #hero-img{
+        display: flex;
+        justify-content: center;
+    }
+    #hero-img img{
+        max-width: 60%;
+    }
+    #heropage{
+        padding-top: 90px;
+    }
+}
+@media only screen and (max-width: 959px){
+    .faDownload{
+        display: block;
+    }
+    .faDownload-inner{
+        padding-right: 5px;
+    }
+    .dl-resume{
+        display: none;
+    }
+    .hero-texts{
+        max-width: 150px;
+    }
+}
+@media screen and (min-width: 719px) and (max-width: 1139px) { 
+    #hero-img img{
+        max-width: 100%;
+    }
 }
