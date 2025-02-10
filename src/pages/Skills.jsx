@@ -143,7 +143,7 @@ const Skills = () => {
                 </div>
             </div>
           </div>
-          <div className="circlePosition w-[420px] h-[300px] bg-[#8750f7] rounded-[100%] absolute z-1 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] blur-[200px]"></div>
+          
       </section>
     </>
   );

@@ -1,0 +1,65 @@
+.certAll{
+    display: flex;
+    justify-content: center;
+}
+.certContainer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 60%;
+    max-width: 100%;
+}
+.certContainer a,p{
+    padding-top: 20px;
+    transition: ease-in-out 0.5s;
+}
+.certBoxes{
+    max-width: 350px;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgba(33, 19, 48, 0.678);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 12px;
+    box-shadow: 5px 10px 13px rgb(0, 0, 0, 0.5);
+    transition: ease-in-out 0.5s;
+    border: 1px solid transparent;
+}
+.certItems{
+    filter: grayscale(90%);
+}
+.certBoxes:hover{
+    border: 1px solid #8750f7;
+    background-color: rgba(135, 80, 247, 0.3);
+}
+.certBoxes:hover img{
+    transform: scale(1.1);
+}
+.certBoxes:hover .certItems{
+    filter: none;
+    color: #8750f7;
+}
+.certBoxes:hover .certBtns{
+    color: #8750f7;
+}
+.certImg {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.certImg img{
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 7px 10px 13px rgb(0, 0, 0, 0.5);
+    transition: ease-in-out 0.5s;
+}
+.certBtns{
+    display: flex;
+    justify-content: space-between;
+    color: #747779;
+}
+.faIcons{
+    padding-right: 5px;
+}

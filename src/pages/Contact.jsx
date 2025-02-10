@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <>
       <div className="contactB0dy">
-        <Nav/>
+      <Nav/>
       </div>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-[#050709] lg:py-[120px]">
         <div className="container">
