@@ -28,7 +28,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+          <div className="circlePosition w-[300px] h-[300px] bg-[#8750f7] rounded-[100%] absolute z-[-1] top-[150%] left-[50%] translate-x-[-50%] translate-y-[-50%] blur-[200px]"></div>
           <div className="w-full flex flex-wrap justify-center -mx-4">
             <div className="w-full px-4">
               <ul className="flex flex-wrap justify-center mb-12 space-x-1">

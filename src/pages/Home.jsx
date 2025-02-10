@@ -6,7 +6,7 @@ import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-sv
 import {faDownload } from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from 'react';
 
-const Counter = ({ start = 0, end, duration = 1000 }) => {
+const Counter = ({ start = 0, end, duration = 2000 }) => {
     const [count, setCount] = useState(start);
   
     useEffect(() => {
