@@ -1,0 +1,71 @@
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: transparent;
+    inherits: false;
+}
+@property --myColor2 {
+    syntax: '<color>';
+    initial-value: transparent;
+    inherits: false;
+}
+.headContainer{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.headBox{
+    max-width: 1200px;
+    width: 100%;
+}
+.headFlex{
+    display: flex;
+    border-bottom: 1px solid #2C1557;
+    margin: 0px 20px 0px 20px;
+    padding: 25px;
+    background: linear-gradient(to right, var(--myColor1), var(--myColor2));
+    transition: --myColor1 1s, --myColor2 1s;
+}
+.headFlex:hover{
+    --myColor1: #8750f7;
+    --myColor2: #2a1454;
+}
+.headFlex:hover h2{
+    color: #fff;
+}
+.headFlex:hover .faArrow{
+    transform: rotate(-50deg)
+}
+.serv-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+    max-width: 350px;
+    width: 100%;
+}
+.serv-head h2{
+    font-size: clamp(0.8rem, -2rem + 6vw, 1.5rem)!important;
+    font-weight: bold;
+    color: #8750F7;
+    transition: ease-in-out 1s;
+}
+.serv-head h1{
+    font-size: clamp(1.1rem, -1.5rem + 6vw, 2rem)!important;
+    font-weight: bold;
+}
+.headP{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headP p{
+    font-size: clamp(0.7rem, -2.7rem + 7vw, 1.2rem)!important;
+    width: 80%;
+}
+.faArrow{
+    transform: rotate(50deg);
+    font-size: clamp(1rem, -2.5rem + 7vw, 1.6rem)!important;
+    color: #8750F7;
+    transition: ease-in-out 0.5s;
+
+}

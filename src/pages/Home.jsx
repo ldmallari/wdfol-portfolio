@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import {faDownload } from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from 'react';
+import Services from './Services';
 
 const Counter = ({ start = 0, end, duration = 2000 }) => {
     const [count, setCount] = useState(start);
@@ -131,6 +132,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Services/>
             <Portfolio/>
         </>
     )
