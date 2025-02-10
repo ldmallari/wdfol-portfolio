@@ -72,7 +72,7 @@ const Portfolio = () => {
           </div>
           <div className="flex flex-wrap -mx-4">
             <PortfolioCard
-              ImageHref="../src/assets/images/tataklokal.png"
+              ImageHref="/images/tataklokal.png"
               category="Development"
               title="Tatak Lokál"
               button="View Details"

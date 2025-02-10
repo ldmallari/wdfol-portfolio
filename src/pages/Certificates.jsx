@@ -29,72 +29,72 @@ const Certificates = () => {
                 <div className="certBoxes">
                     <div className="certItems">
                         <div className="certImg">
-                            <img src="../src/assets/images/certs/hubspot.png" alt="" />
+                            <img src="/images/certs/hubspot.png" alt="" />
                         </div>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="../src/assets/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
                 <div className="certBoxes">
                     <div className="certItems">
                         <div className="certImg">
-                            <img src="../src/assets/images/certs/hubspot.png" alt="" />
+                            <img src="/images/certs/hubspot.png" alt="" />
                         </div>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="../src/assets/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
                 <div className="certBoxes">
                     <div className="certItems">
                         <div className="certImg">
-                            <img src="../src/assets/images/certs/hubspot.png" alt="" />
+                            <img src="/images/certs/hubspot.png" alt="" />
                         </div>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="../src/assets/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
                 <div className="certBoxes">
                     <div className="certItems">
                         <div className="certImg">
-                            <img src="../src/assets/images/certs/hubspot.png" alt="" />
+                            <img src="/images/certs/hubspot.png" alt="" />
                         </div>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="../src/assets/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
                 <div className="certBoxes">
                     <div className="certItems">
                         <div className="certImg">
-                            <img src="../src/assets/images/certs/hubspot.png" alt="" />
+                            <img src="/images/certs/hubspot.png" alt="" />
                         </div>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="../src/assets/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
                 <div className="certBoxes">
                     <div className="certItems">
                         <div className="certImg">
-                            <img src="../src/assets/images/certs/hubspot.png" alt="" />
+                            <img src="/images/certs/hubspot.png" alt="" />
                         </div>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="../src/assets/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
