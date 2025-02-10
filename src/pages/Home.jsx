@@ -1,6 +1,7 @@
 import Nav from './Nav';
 import Portfolio from './Portfolio';
 import '../assets/styles/home.css';
+import hero from '../assets/images/hero.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import {faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -100,7 +101,7 @@ export default function Home() {
                         <div className="lg:ml-auto lg:text-right">
                             <div id="hero-img" className="relative z-10 inline-block pt-11 lg:pt-0">
                             <img
-                                src="../src/assets/images/hero.jpg"
+                                src={hero}
                                 alt="hero"
                                 className="max-w-auto lg:ml-auto"
                             />
