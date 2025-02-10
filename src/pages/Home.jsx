@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="lg:ml-auto lg:text-right">
                     <div id="hero-img" className="relative z-10 inline-block pt-11 lg:pt-0">
                     <img
-                        src="../src/assets/images/hero.jpg"
+                        src={hero}
                         alt="hero"
                         className="max-w-auto lg:ml-auto"
                     />
