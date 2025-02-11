@@ -28,7 +28,11 @@
     border: 1px solid transparent;
 }
 .certItems{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     filter: grayscale(90%);
+    height: 100%;
 }
 .certBoxes:hover{
     border: 1px solid #8750f7;
@@ -54,6 +58,15 @@
     width: 100%;
     box-shadow: 7px 10px 13px rgb(0, 0, 0, 0.5);
     transition: ease-in-out 0.5s;
+}
+.downBtn:hover{
+    color: #fff
+}
+.previewBtn{
+    cursor: pointer;
+}
+.previewBtn:hover{
+    color: #fff;
 }
 .certBtns{
     display: flex;
