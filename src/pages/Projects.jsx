@@ -14,10 +14,26 @@ const Projects = () => {
   return (
     <>
     <div>
-        <div>
-            <h1></h1>
-            <a href=""></a>
+      <div className="projContainer">
+        <div className="projImage">
+          <img src={project.image} alt="" />
         </div>
+
+        <div>
+          <div>
+              <h1>{project.title}</h1>
+              <p>{project.shortdesc}</p>
+          </div>
+          <a href={project.liveLink} target="_blank">Live Preview</a>
+        </div>
+
+        <div className="projAlbum">
+        </div>
+
+        <div>
+
+        </div>
+      </div>
     </div>
     </>
   );
