@@ -30,20 +30,22 @@ const Certificates = () => {
         <PhotoProvider maskOpacity={0.5} bannerVisible={false}>
         <div className="certAll">
             <div className="certContainer">
-                <div className="certBoxes">
+                {certificates.map((certs, id) =>
+                <div key={id} className="certBoxes">
                     <div className="certItems">
-                        <PhotoView src="/images/certs/hubspot.png">
                         <div className="certImg">
-                            <img src="/images/certs/hubspot.png" alt="" />
+                            <img src={certs.image} alt="" />
                         </div>
-                        </PhotoView>
-                        <p>Google Analytics Certification</p>
+                        <p>{certs.title}</p>
                         <div className="certBtns">
-                            <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <PhotoView src={certs.image}>
+                            <a className="previewBtn"><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
+                            </PhotoView>
+                            <a href={certs.image} download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>
+                )}
             </div>
         </div>
         </PhotoProvider>
