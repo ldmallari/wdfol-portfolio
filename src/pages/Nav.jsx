@@ -11,7 +11,7 @@ const Nav = () => {
           <div className="w-60 max-w-full px-4">
             <a href="/#" className="block w-full py-5">
               <img
-                src="/images/logo.png"
+                src="/images/logos/logo.png"
                 alt="logo"
                 className="hidden dark:block"
               />

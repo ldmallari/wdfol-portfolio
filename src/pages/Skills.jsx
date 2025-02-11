@@ -27,7 +27,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/php.png" alt=""/>
+                            <img src="/images/logos/php.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -36,7 +36,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/react.png" alt=""/>
+                            <img src="/images/logos/react.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -45,7 +45,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/python.png" alt=""/>
+                            <img src="/images/logos/python.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -54,7 +54,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/javascript.png" alt=""/>
+                            <img src="/images/logos/javascript.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/wordpress.png" alt=""/>
+                            <img src="/images/logos/wordpress.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -72,7 +72,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/figma.png" alt=""/>
+                            <img src="/images/logos/figma.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -81,7 +81,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/adobe.png" alt=""/>
+                            <img src="/images/logos/adobe.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -90,7 +90,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/bootstrap.png" alt=""/>
+                            <img src="/images/logos/bootstrap.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -99,7 +99,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/html.png" alt=""/>
+                            <img src="/images/logos/html.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -108,7 +108,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/css.png" alt=""/>
+                            <img src="/images/logos/css.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -117,7 +117,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/mysql.png" alt=""/>
+                            <img src="/images/logos/mysql.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -126,7 +126,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/mongodb.png" alt=""/>
+                            <img src="/images/logos/mongodb.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>
@@ -135,7 +135,7 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/postgre.png" alt=""/>
+                            <img src="/images/logos/postgre.png" alt=""/>
                         </div>
                         <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
                     </div>

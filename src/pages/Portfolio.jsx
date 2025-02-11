@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../assets/styles/portfolio.css'
+import projects from "../components/projects";
 
 const Portfolio = () => {
   const [showCard, setShowCard] = useState("all");
@@ -71,22 +72,16 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="flex flex-wrap -mx-4">
+            {projects.map((project) => (
             <PortfolioCard
-              ImageHref="/images/tataklokal.png"
-              category="Development"
-              title="Tatak Lokál"
+              key={project.pId}
+              ImageHref={project.image}
+              category={project.category}
+              title={project.title}
               button="View Details"
-              buttonHref="#"
+              buttonHref={`/projects/${project.pId}`}
               showCard={showCard}
-            />
-            <PortfolioCard
-              ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
-              category="Design"
-              title="Creative Agency"
-              button="View Details"
-              buttonHref="#"
-              showCard={showCard}
-            />
+            />))}
           </div>
         </div>
       </section>
