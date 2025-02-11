@@ -11,7 +11,7 @@
     width: 60%;
     max-width: 100%;
 }
-.certContainer a,p{
+.certContainer a, .certContainer p{
     padding-top: 20px;
     transition: ease-in-out 0.5s;
 }

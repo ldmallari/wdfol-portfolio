@@ -1,0 +1,51 @@
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: #8750f7;
+    inherits: false;
+}
+@property --myColor2 {
+    syntax: '<color>';
+    initial-value: #2a1454;
+    inherits: false;
+}
+body{
+    color: #fff;
+}
+.projMain{
+    display: flex;
+    justify-content: center;
+}
+.projContainer{
+    max-width: 1400px;
+    width: 100%;
+}
+.mainImg{
+    border-radius: 15px;
+}
+.projTxt-Btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liveBtn{
+    background: linear-gradient(to right, var(--myColor1), var(--myColor2));
+    border: 1px solid linear-gradient(to right, var(--myColor1), var(--myColor2));
+    border-radius: 50px;
+    padding: 15px;
+    transition: --myColor1 0.5s, --myColor2 0.5s;
+}
+.liveBtn:hover{
+    --myColor1: #2a1454;
+    --myColor2: #8750f7;
+}
+.liveBtn:hover .faArrowproj{
+    transform: rotate(0deg);
+}
+.liveBtn a{
+    padding: 0px 10px 0px 5px;
+    font-weight: bold;
+}
+.faArrowproj{
+    transform: rotate(-50deg);
+    transition: ease-in-out 0.2s;
+}
