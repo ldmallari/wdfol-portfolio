@@ -1,7 +1,10 @@
 import React from "react";
 import '../assets/styles/cert.css'
+import 'react-photo-view/dist/react-photo-view.css';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faDownload, faLink } from '@fortawesome/free-solid-svg-icons';
+import certificates from "../components/certificates";
 
 const Certificates = () => {
 
@@ -24,73 +27,16 @@ const Certificates = () => {
               </div>
             </div>
         </div>
+        <PhotoProvider maskOpacity={0.5} bannerVisible={false}>
         <div className="certAll">
             <div className="certContainer">
                 <div className="certBoxes">
                     <div className="certItems">
+                        <PhotoView src="/images/certs/hubspot.png">
                         <div className="certImg">
                             <img src="/images/certs/hubspot.png" alt="" />
                         </div>
-                        <p>Google Analytics Certification</p>
-                        <div className="certBtns">
-                            <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="certBoxes">
-                    <div className="certItems">
-                        <div className="certImg">
-                            <img src="/images/certs/hubspot.png" alt="" />
-                        </div>
-                        <p>Google Analytics Certification</p>
-                        <div className="certBtns">
-                            <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="certBoxes">
-                    <div className="certItems">
-                        <div className="certImg">
-                            <img src="/images/certs/hubspot.png" alt="" />
-                        </div>
-                        <p>Google Analytics Certification</p>
-                        <div className="certBtns">
-                            <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="certBoxes">
-                    <div className="certItems">
-                        <div className="certImg">
-                            <img src="/images/certs/hubspot.png" alt="" />
-                        </div>
-                        <p>Google Analytics Certification</p>
-                        <div className="certBtns">
-                            <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="certBoxes">
-                    <div className="certItems">
-                        <div className="certImg">
-                            <img src="/images/certs/hubspot.png" alt="" />
-                        </div>
-                        <p>Google Analytics Certification</p>
-                        <div className="certBtns">
-                            <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
-                            <a href="/images/certs/hubspot.png" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="certBoxes">
-                    <div className="certItems">
-                        <div className="certImg">
-                            <img src="/images/certs/hubspot.png" alt="" />
-                        </div>
+                        </PhotoView>
                         <p>Google Analytics Certification</p>
                         <div className="certBtns">
                             <a href=""><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
@@ -100,6 +46,7 @@ const Certificates = () => {
                 </div>
             </div>
         </div>
+        </PhotoProvider>
     </section>
     </>
   );
