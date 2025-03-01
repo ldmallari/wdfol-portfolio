@@ -10,14 +10,13 @@ const Skills = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                 <span className="text-[#DDDDDD] mb-2 block text-lg font-semibold">
-                  My Portfolio
+                My Expertise
                 </span>
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]" id="p-h2">
-                  My Skills
+                Skills & Technologies
                 </h2>
                 <p className="text-body-color text-base dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                Here are the skills and technologies I specialize in, helping me deliver high-quality solutions for every project.
                 </p>
               </div>
             </div>

@@ -134,6 +134,83 @@ export default function Home() {
             </div>
             <Services/>
             <Portfolio/>
+            <div className="bg-[#050709]">
+                <section className="max-w-7xl mx-auto w-full px-10 py-20">
+                    <div className="flex flex-wrap">
+                        <div className="w-full px-4">
+                        <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+                            <span className="text-[#DDDDDD] mb-2 block text-lg font-semibold">
+                            Client Testimonials
+                            </span>
+                            <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]" id="p-h2">
+                            What My Clients Say
+                            </h2>
+                            <p className="text-body-color text-base dark:text-dark-6">
+                            I take pride in delivering high-quality work that meets my clients' needs. Here’s what they have to say about working with me.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
+                    <div
+                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between">
+                        <div className="flex flex-col gap-y-3.5">
+                        <p className="font-bold text-xl text-white">title</p>
+                        <p className="font-medium text-white">desc</p>
+                        </div>
+                        <div className="flex flex-col"><img src="/images/user1.png" alt="Emily Smith" className="h-10 w-10"/>
+                        <p className="pt-2 text-sm font-semibold text-white">Emily Smith</p>
+                        <p className="text-sm font-medium text-slate-100/70">Client</p>
+                        </div>
+                    </div>
+                    <div
+                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+                        <div className="flex flex-col gap-y-3.5">
+                        <p className="font-bold text-xl text-white">
+                            title
+                        </p>
+                        <p className="font-medium text-white">
+                            desc
+                        </p>
+                        </div>
+                        <div className="flex flex-col"><img src="/images/user2.png" alt="Michael Johnson" className="h-10 w-10"/>
+                        <p className="pt-2 text-sm font-semibold text-white">Name</p>
+                        <p className="text-sm font-medium text-slate-100/70">Client</p>
+                        </div>
+                    </div>
+                    <div
+                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+                        <div className="flex flex-col gap-y-3.5">
+                        <p className="font-bold text-xl text-white">
+                            title
+                        </p>
+                        <p className="font-medium text-white">
+                            desc
+                        </p>
+                        </div>
+                        <div className="flex flex-col"><img src="/images/user3.png" alt="Sarah Brown" className="h-10 w-10"/>
+                        <p className="pt-2 text-sm font-semibold text-white">Name</p>
+                        <p className="text-sm font-medium text-slate-100/70">Client</p>
+                        </div>
+                    </div>
+                    <div
+                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between">
+                        <div className="flex flex-col gap-y-3.5">
+                        <p className="font-bold text-xl text-white">
+                            title
+                        </p>
+                        <p className="font-medium text-white">
+                            desc
+                        </p>
+                        </div>
+                        <div className="flex flex-col"><img src="/images/user4.png" alt="James White" className="h-10 w-10"/>
+                        <p className="pt-2 text-sm font-semibold text-white">Name</p>
+                        <p className="text-sm font-medium text-slate-100/70">Client</p>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            </div>
         </>
     )
   }

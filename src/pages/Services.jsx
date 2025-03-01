@@ -7,18 +7,18 @@ const Services = () => {
 
   return (
     <>
-    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-[#050709]">
+    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-[#050709]" id="services">
         <div className="flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                 <span className="text-[#DDDDDD] mb-2 block text-lg font-semibold">
-                  My Portfolio
+                What I Offer
                 </span>
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]" id="p-h2">
                   My Quality Services
                 </h2>
                 <p className="text-body-color text-base dark:text-dark-6">
-                    We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
+                I provide a range of professional services customized to meet your needs, ensuring quality results and a seamless experience.
                 </p>
               </div>
             </div>

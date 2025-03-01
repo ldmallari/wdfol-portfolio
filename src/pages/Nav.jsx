@@ -39,10 +39,10 @@ const Nav = () => {
               >
                 <ul className="block lg:flex">
                   <ListItem NavLink="/about">About</ListItem>
-                  <ListItem NavLink="/#">Services</ListItem>
-                  <ListItem NavLink="/#">Works</ListItem>
-                  <ListItem NavLink="/#">Skills</ListItem>
-                  <ListItem NavLink="/#">Testimonials</ListItem>
+                  <ListItem NavLink="/#services">Services</ListItem>
+                  <ListItem NavLink="/#works">Works</ListItem>
+                  <ListItem NavLink="/about#certificates">Skills</ListItem>
+                  <ListItem NavLink="/#testimonials">Testimonials</ListItem>
                   <ListItem NavLink="/contact">Contact</ListItem>
                 </ul>
               </nav>
@@ -60,12 +60,12 @@ const ListItem = ({ children, NavLink }) => {
   return (
     <>
       <li>
-        <Link
-          to={NavLink}
+        <a
+          href={NavLink}
           id="nav-huver" className="flex py-2 text-base font-medium text-body-color hover:text-dark dark:text-dark-6 dark:hover:text-white lg:ml-12 lg:inline-flex"
         >
           {children}
-        </Link>
+        </a>
       </li>
     </>
   );

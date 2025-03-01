@@ -13,7 +13,7 @@ const Certificates = () => {
     <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-[#0F0715]">
         <div className="flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+              <div className="mx-auto mb-[60px] max-w-[510px] text-center" id="certificates">
                 <span className="text-[#DDDDDD] mb-2 block text-lg font-semibold">
                   My Portfolio
                 </span>

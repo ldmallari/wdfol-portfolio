@@ -11,20 +11,19 @@ const Portfolio = () => {
 
   return (
     <>
-      <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark" id="portfolio-sec">
+      <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark" id="works">
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                 <span className="text-[#DDDDDD] mb-2 block text-lg font-semibold">
-                  My Portfolio
+                My Portfolio
                 </span>
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]" id="p-h2">
-                  My Recent Works
+                All My Projects
                 </h2>
                 <p className="text-body-color text-base dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                Explore my complete collection of projects, highlighting my skills, creativity, and dedication to quality work.
                 </p>
               </div>
             </div>

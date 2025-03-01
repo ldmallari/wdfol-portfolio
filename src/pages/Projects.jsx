@@ -1,5 +1,7 @@
 import React from "react";
 import '../assets/styles/project.css'
+import 'react-photo-view/dist/react-photo-view.css';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { useParams } from "react-router-dom";
 import projects from "../components/projects";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -48,31 +50,25 @@ const Projects = () => {
               <p>{project.category}</p>
             </div>
           </div>
-
         </div>
 
         <div className="projAlbum">
-        <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        centeredSlides={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      > {project.images
-        .filter(img => img) 
-        .map((img, index) => (
-        <SwiperSlide>
-          <img key={index} src={img} />
-        </SwiperSlide>
-      ))}
-      </Swiper>
+          <PhotoProvider maskOpacity={0.5} bannerVisible={false}>
+          <Swiper slidesPerView={3} spaceBetween={30} centeredSlides={true} pagination={{ clickable: true, }} modules={[Pagination]} className="mySwiper">
+            {project.images.filter(img => img)
+            .map((img, index) => (
+            <SwiperSlide>
+              <PhotoView src={img}>
+              <img key={index} src={img} />
+              </PhotoView>
+              </SwiperSlide>))}
+          </Swiper>
+          </PhotoProvider>
         </div>
 
-        <div>
-
+        <div className="flex flex-col gap-8">
+          <h2 className="text-5xl font-bold">Project Description</h2>
+          <p className="text-lg">{project.description}</p>
         </div>
       </div>
     </div>
