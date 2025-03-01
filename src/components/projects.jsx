@@ -10,11 +10,7 @@ const projects = [
         prevLink:"", 
         nextLink:"", 
         image:"/images/projects/tataklokal.png", 
-        image1:"", 
-        image2:"", 
-        image3:"", 
-        image4:"", 
-        image5:""
+        images: ["/images/projects/tataklokal.png", "/images/projects/tataklokal.png", "/images/projects/tataklokal.png"]
     },
     { 
         pId: "2", 
@@ -27,11 +23,7 @@ const projects = [
         prevLink:"", 
         nextLink:"", 
         image:"/images/projects/tataklokal.png", 
-        image1:"", 
-        image2:"", 
-        image3:"", 
-        image4:"", 
-        image5:""
+        images: [""]
     },
     { 
         pId: "3", 
@@ -44,11 +36,7 @@ const projects = [
         prevLink:"", 
         nextLink:"", 
         image:"/images/projects/mnhs.png", 
-        image1:"", 
-        image2:"", 
-        image3:"", 
-        image4:"", 
-        image5:""
+        images: [""]
     },
     { 
         pId: "4", 
@@ -61,11 +49,7 @@ const projects = [
         prevLink:"", 
         nextLink:"", 
         image:"/images/projects/baumann.jpg", 
-        image1:"", 
-        image2:"", 
-        image3:"", 
-        image4:"", 
-        image5:""
+        images: [""]
     },
     { 
         pId: "5", 
@@ -78,11 +62,7 @@ const projects = [
         prevLink:"", 
         nextLink:"", 
         image:"/images/projects/wheel.png", 
-        image1:"", 
-        image2:"", 
-        image3:"", 
-        image4:"", 
-        image5:""
+        images: [""]
     },
     { 
         pId: "6", 
@@ -95,11 +75,7 @@ const projects = [
         prevLink:"", 
         nextLink:"", 
         image:"/images/projects/tataklokal.png", 
-        image1:"", 
-        image2:"", 
-        image3:"", 
-        image4:"", 
-        image5:""
+        images: [""]
     },
 ]
 

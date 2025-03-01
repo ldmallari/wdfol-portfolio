@@ -25,7 +25,7 @@ const Projects = () => {
     <div className="projMain">
       <div className="projContainer">
         <div className="projImage">
-          <img src={project.image} alt="" className="mainImg"/>
+          <img src={project.image} alt=""/>
         </div>
 
         <div className="projTxt-Btn">
@@ -61,34 +61,13 @@ const Projects = () => {
         }}
         modules={[Pagination]}
         className="mySwiper"
-      >
+      > {project.images
+        .filter(img => img) 
+        .map((img, index) => (
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img key={index} src={img} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
+      ))}
       </Swiper>
         </div>
 
