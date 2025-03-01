@@ -20,14 +20,12 @@ const Contact = () => {
       };
   return (
     <>
-      <div className="contactB0dy">
       <Nav/>
-      </div>
-      <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-[#050709] lg:py-[120px]">
+      <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-[#0F0715] lg:py-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-[transparent] sm:p-12">
+              <div id="contactshad1" className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-[transparent] sm:p-12">
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]" id="p-h2">
                   Let's work together!
                 </h2>
@@ -87,8 +85,10 @@ const Contact = () => {
                 </form>
               </div>
             </div>
+            <div className="circlePosition w-[700px] h-[100px] bg-[#8750f7] rounded-[100%] absolute z-[-1] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] blur-[200px]"></div>
+                    
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12" id="c-csection">
-            <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-[transparent] sm:p-12">
+            <div id="contactshad2" className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-[transparent] sm:p-12">
 
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div id="c-cicons" className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-[#8750f7] sm:h-[70px] sm:max-w-[70px]">

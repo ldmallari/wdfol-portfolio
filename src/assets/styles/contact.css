@@ -29,6 +29,6 @@
 #c-csection{
     align-self: center;
 }
-.contactB0dy{
-    background: #050709;
+#contactshad1, #contactshad2{
+    box-shadow: 10px 10px 100px 0px rgba(0,0,0,0.75);
 }
