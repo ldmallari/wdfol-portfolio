@@ -17,18 +17,21 @@
     max-width: 1200px;
     width: 100%;
 }
-.headFlex{
+.headFlex {
     display: flex;
     border-bottom: 1px solid #2C1557;
     margin: 0px 20px 0px 20px;
     padding: 25px;
-    background: linear-gradient(to right, var(--myColor1), var(--myColor2));
-    transition: --myColor1 1s, --myColor2 1s;
+    background: linear-gradient(to right, #8750f7, #2a1454);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s ease-in-out;
 }
-.headFlex:hover{
-    --myColor1: #8750f7;
-    --myColor2: #2a1454;
+
+.headFlex:hover {
+    background-size: 100% 100%;
 }
+
 .headFlex:hover h2{
     color: #fff;
 }
