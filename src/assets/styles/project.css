@@ -19,13 +19,30 @@ body{
     max-width: 1400px;
     width: 100%;
 }
+.projImage{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: black;
+    padding: 4vw 4vw 0 4vw;
+
+}
 .mainImg{
-    border-radius: 15px;
 }
 .projTxt-Btn{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 6.5vh 2vw;
+}
+.projCol1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.projCol2{
+    display: flex;
+    flex-direction: row;
+    gap: 7.5vw;
 }
 .liveBtn{
     background: linear-gradient(to right, var(--myColor1), var(--myColor2));
@@ -33,19 +50,24 @@ body{
     border-radius: 50px;
     padding: 15px;
     transition: --myColor1 0.5s, --myColor2 0.5s;
+    max-width: 8vw;
+    width: 100%;
 }
 .liveBtn:hover{
     --myColor1: #2a1454;
     --myColor2: #8750f7;
 }
 .liveBtn:hover .faArrowproj{
-    transform: rotate(0deg);
+    transform: rotate(-50deg);
 }
 .liveBtn a{
     padding: 0px 10px 0px 5px;
     font-weight: bold;
 }
 .faArrowproj{
-    transform: rotate(-50deg);
+    transform: rotate(0deg);
     transition: ease-in-out 0.2s;
+}
+.swiper{
+    padding: 0 0 3vw 0!important;
 }
