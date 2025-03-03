@@ -26,7 +26,7 @@ const About = () => {
             </div>
         </div>
         <div className="flex flex-col px-[15vw] items-center">
-        <div className="bg-transparent h-[400px] max-w-[50vw] w-[100%] rounded-lg relative group flex flex-col p-4 overflow-hidden group">
+        <div className="bg-transparent h-[400px] max-w-[35vw] w-[100%] rounded-lg relative group flex flex-col p-4 overflow-hidden group">
             <div className="flex-grow w-full relative overflow-hidden z-0">
                 
                 <div className="absolute z-0 left-0 w-full h-full flex">
@@ -45,7 +45,7 @@ const About = () => {
                                             <div className="flex items-center space-x-3">
                                                 <div className="flex items-center border border-zinc-600 border-opacity-40 w-12 h-12 rounded-md relative overflow-hidden">
                                                     
-                                                    <img src="https://www.hau.edu.ph/images/logo-circle.png" alt="Holy Angel University Logo" />
+                                                    <img src="/images/logos/hau.png" alt="Holy Angel University Logo" />
                                                 </div>
                                                 <div className="flex flex-col justify-start items-start">
                                                     <div className="text-zinc-100 font-medium">BSIT Specialized in Web Development</div>
@@ -69,7 +69,7 @@ const About = () => {
                                             <div className="flex items-center space-x-3">
                                                 <div className="flex items-center border border-zinc-600 border-opacity-40 w-12 h-12 rounded-md relative overflow-hidden">
                                                     
-                                                    <img src="https://www.hau.edu.ph/images/logo-circle.png" alt="Holy Angel University Logo" />
+                                                    <img src="/images/logos/hau.png" alt="Holy Angel University Logo" />
                                                 </div>
                                                 <div className="flex flex-col justify-start items-start">
                                                     <div className="text-zinc-100 font-medium">Senior High School</div>
@@ -93,7 +93,7 @@ const About = () => {
                                             <div className="flex items-center space-x-3">
                                                 <div className="flex items-center border border-zinc-600 border-opacity-40 w-12 h-12 rounded-md relative overflow-hidden">
                                                     
-                                                    <img src="https://www.hau.edu.ph/images/logo-circle.png" alt="Holy Angel University Logo" />
+                                                    <img src="/images/logos/hau.png" alt="Holy Angel University Logo" />
                                                 </div>
                                                 <div className="flex flex-col justify-start items-start">
                                                     <div className="text-zinc-100 font-medium">BSIT Specialized in Web Development</div>
@@ -117,7 +117,7 @@ const About = () => {
                                             <div className="flex items-center space-x-3">
                                                 <div className="flex items-center border border-zinc-600 border-opacity-40 w-12 h-12 rounded-md relative overflow-hidden">
                                                     
-                                                    <img src="https://www.hau.edu.ph/images/logo-circle.png" alt="Holy Angel University Logo" />
+                                                    <img src="/images/logos/hau.png" alt="Holy Angel University Logo" />
                                                 </div>
                                                 <div className="flex flex-col justify-start items-start">
                                                     <div className="text-zinc-100 font-medium">Senior High School</div>

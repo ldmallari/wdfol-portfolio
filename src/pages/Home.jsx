@@ -153,7 +153,7 @@ export default function Home() {
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
                     <div
-                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between">
+                        className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-2 flex flex-col gap-y-10 justify-between">
                         <div className="flex flex-col gap-y-3.5">
                         <p className="font-bold text-xl text-white">title</p>
                         <p className="font-medium text-white">desc</p>
@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div
-                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+                        className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-3 flex flex-col gap-y-10 justify-between">
                         <div className="flex flex-col gap-y-3.5">
                         <p className="font-bold text-xl text-white">
                             title
@@ -179,7 +179,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div
-                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+                        className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-3 flex flex-col gap-y-10 justify-between">
                         <div className="flex flex-col gap-y-3.5">
                         <p className="font-bold text-xl text-white">
                             title
@@ -194,7 +194,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div
-                        className="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between">
+                        className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-2 flex flex-col gap-y-10 justify-between">
                         <div className="flex flex-col gap-y-3.5">
                         <p className="font-bold text-xl text-white">
                             title

@@ -34,10 +34,10 @@ const Portfolio = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject("all")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition duration-500 ease-in-out md:py-3 lg:px-8 ${
                       showCard === "all"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                        ? "activeClasses bg-[#8750f7] text-white"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-[#8750f7] hover:text-white"
                     }`}
                   >
                     All Projects
@@ -46,10 +46,10 @@ const Portfolio = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject("design")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition duration-500 ease-in-out md:py-3 lg:px-8 ${
                       showCard === "design"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                        ? "activeClasses bg-[#8750f7] text-white"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-[#8750f7] hover:text-white"
                     }`}
                   >
                     Design
@@ -58,10 +58,10 @@ const Portfolio = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject("development")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition duration-500 ease-in-out md:py-3 lg:px-8 ${
                       showCard === "development"
-                        ? "activeClasses bg-primary text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                        ? "activeClasses bg-[#8750f7] text-white"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-[#8750f7] hover:text-white"
                     }`}
                   >
                     Development
@@ -111,14 +111,14 @@ const PortfolioCard = ({
           <div className="overflow-hidden rounded-[10px]">
             <img src={ImageHref} alt="portfolio" className="w-full" />
           </div>
-          <div id="container-proj" className="relative z-10 mx-7 -mt-20 rounded-lg bg-white dark:bg-dark-2 py-[15px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+          <div id="container-proj" className="relative z-10 mx-7 -mt-20 text-center">
             <span className="text-[#DDDDDD] mb-2 block text-sm font-medium">
               {category}
             </span>
             <h3 className="text-dark dark:text-white mb-5 text-xl font-bold">{title}</h3>
             <a
               href={buttonHref}
-              className="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white"
+              className="text-body-color dark:text-dark-6 inline-block rounded-md border border-stroke py-[10px] px-7 text-sm font-medium transition duration-500 ease-in-out hover:border-[#8750f7] hover:bg-[#8750f7] hover:text-white" id="detailBtn"
             >
               {button}
             </a>

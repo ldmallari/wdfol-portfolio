@@ -5,7 +5,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className={`flex w-full items-center bg-white dark:bg-dark`}>
+    <header className={`flex w-full items-center`}>
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
