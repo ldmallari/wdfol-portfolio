@@ -12,3 +12,34 @@
         transform: translateY(-50%);
     }
 }
+
+@keyframes scrollX {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.animate-scroll {
+    display: flex;
+    gap: 2rem;
+    animation: scrollX 35s linear infinite;
+    width: max-content;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .spin-asterisk {
+    display: inline-block;
+    animation: spin 2s linear infinite;
+  }

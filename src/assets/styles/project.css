@@ -43,15 +43,18 @@ body{
     flex-direction: row;
     gap: 7.5vw;
 }
-.liveBtn{
+.liveBtn {
     background: linear-gradient(to right, var(--myColor1), var(--myColor2));
     border: 1px solid linear-gradient(to right, var(--myColor1), var(--myColor2));
     border-radius: 50px;
     padding: 15px;
     transition: --myColor1 0.5s, --myColor2 0.5s;
-    max-width: 8vw;
+    max-width: 200px;  /* Ensures button is not too thin */
+    min-width: 120px;  /* Prevents it from getting too small */
     width: 100%;
+    text-align: center; /* Keeps text centered */
 }
+
 .liveBtn:hover{
     --myColor1: #2a1454;
     --myColor2: #8750f7;

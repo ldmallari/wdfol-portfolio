@@ -15,3 +15,6 @@ header{
     --d: 100%;
     --p: 100%;
 }
+#navbarCollapse{
+    z-index: 11;
+}

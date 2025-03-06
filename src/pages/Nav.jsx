@@ -24,25 +24,26 @@ const Nav = () => {
                 id="navbarToggler"
                 className={` ${
                   open && "navbarTogglerActive"
-                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-[#8750f7] focus:ring-1 lg:hidden`}
               >
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
               </button>
               <nav
                 // :className="!navbarOpen && 'hidden' "
                 id="navbarCollapse"
-                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent ${
+                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent ${
                   !open && "hidden"
                 } `}
               >
                 <ul className="block lg:flex">
+                  <ListItem NavLink="/">Home</ListItem>
                   <ListItem NavLink="/about">About</ListItem>
-                  <ListItem NavLink="/#services">Services</ListItem>
+                  {/* <ListItem NavLink="/#services">Services</ListItem>
                   <ListItem NavLink="/#works">Works</ListItem>
                   <ListItem NavLink="/about#certificates">Skills</ListItem>
-                  <ListItem NavLink="/#testimonials">Testimonials</ListItem>
+                  <ListItem NavLink="/#testimonials">Testimonials</ListItem> */}
                   <ListItem NavLink="/contact">Contact</ListItem>
                 </ul>
               </nav>

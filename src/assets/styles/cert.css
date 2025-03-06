@@ -8,8 +8,8 @@
     color: white;
     gap: 50px;
     flex-wrap: wrap;
-    width: 60%;
-    max-width: 100%;
+    width: 100%;
+    max-width: 80%;
 }
 .certContainer a, .certContainer p{
     padding-top: 20px;

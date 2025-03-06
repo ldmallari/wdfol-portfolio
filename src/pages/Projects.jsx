@@ -24,54 +24,56 @@ const Projects = () => {
   return (
     <>
     <Nav/>
-    <div className="projMain">
+    <div className="projMain pb-20">
       <div className="projContainer">
         <div className="projImage">
-          <img src={project.image} alt=""/>
+          <img src={project.image} alt="" />
         </div>
 
         <div className="projTxt-Btn">
           <div className="projCol1">
-              <h1>{project.title}</h1>
-              <p>{project.date}</p>
-              <p>{project.shortdesc}</p>
-              <div className="liveBtn">
-                <a href={project.liveLink} target="_blank">Live Preview</a><FontAwesomeIcon icon={faArrowRight} className="faArrowproj"/>
-              </div>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">{project.title}</h1>
+            <p className="text-sm sm:text-base md:text-lg">{project.date}</p>
+            <p className="text-sm sm:text-base md:text-lg">{project.shortdesc}</p>
+            <div className="liveBtn">
+              <a href={project.liveLink} target="_blank">Live Preview</a>
+              <FontAwesomeIcon icon={faArrowRight} className="faArrowproj" />
+            </div>
           </div>
 
           <div className="projCol2">
             <div>
-              <p>Client</p>
-              <p>{project.category}</p>
+              <p className="text-sm sm:text-base md:text-lg">Client</p>
+              <p className="text-sm sm:text-base md:text-lg">{project.category}</p>
             </div>
             <div>
-              <p>Client</p>
-              <p>{project.category}</p>
+              <p className="text-sm sm:text-base md:text-lg">Client</p>
+              <p className="text-sm sm:text-base md:text-lg">{project.category}</p>
             </div>
           </div>
         </div>
 
         <div className="projAlbum">
           <PhotoProvider maskOpacity={0.5} bannerVisible={false}>
-          <Swiper slidesPerView={3} spaceBetween={30} centeredSlides={true} pagination={{ clickable: true, }} modules={[Pagination]} className="mySwiper">
-            {project.images.filter(img => img)
-            .map((img, index) => (
-            <SwiperSlide>
-              <PhotoView src={img}>
-              <img key={index} src={img} />
-              </PhotoView>
-              </SwiperSlide>))}
-          </Swiper>
+            <Swiper slidesPerView={3} spaceBetween={30} centeredSlides={true} pagination={{ clickable: true }} modules={[Pagination]} className="mySwiper">
+              {project.images.filter(img => img).map((img, index) => (
+                <SwiperSlide key={index}>
+                  <PhotoView src={img}>
+                    <img src={img} alt="" />
+                  </PhotoView>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </PhotoProvider>
         </div>
 
         <div className="flex flex-col gap-8">
-          <h2 className="text-5xl font-bold">Project Description</h2>
-          <p className="text-lg">{project.description}</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">Project Description</h2>
+          <p className="text-sm sm:text-base md:text-lg">{project.description}</p>
         </div>
       </div>
     </div>
+
     </>
   );
 };

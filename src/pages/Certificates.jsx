@@ -10,7 +10,7 @@ const Certificates = () => {
 
   return (
     <>
-    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-[#0F0715]">
+    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-[#050709]">
         <div className="flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center" id="certificates">

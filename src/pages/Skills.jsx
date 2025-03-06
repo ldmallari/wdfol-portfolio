@@ -26,9 +26,18 @@ const Skills = () => {
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
+                            <img src="/images/logos/html.png" alt=""/>
+                        </div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">75%</div>
+                    </div>
+                    <p className="text-[#8750f7] text-center">HTML</p>
+                </div>
+                <div className="lbox-container">
+                    <div className="l-boxes">
+                        <div className="lbox-img">
                             <img src="/images/logos/php.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">50%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">PHP</p>
                 </div>
@@ -37,7 +46,7 @@ const Skills = () => {
                         <div className="lbox-img">
                             <img src="/images/logos/react.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">40%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">React</p>
                 </div>
@@ -46,7 +55,7 @@ const Skills = () => {
                         <div className="lbox-img">
                             <img src="/images/logos/python.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">60%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">Python</p>
                 </div>
@@ -55,70 +64,43 @@ const Skills = () => {
                         <div className="lbox-img">
                             <img src="/images/logos/javascript.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">65%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">JavaScript</p>
                 </div>
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
-                            <img src="/images/logos/wordpress.png" alt=""/>
-                        </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
-                    </div>
-                    <p className="text-[#8750f7] text-center">WordPress</p>
-                </div>
-                <div className="lbox-container">
-                    <div className="l-boxes">
-                        <div className="lbox-img">
-                            <img src="/images/logos/figma.png" alt=""/>
-                        </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
-                    </div>
-                    <p className="text-[#8750f7] text-center">Figma</p>
-                </div>
-                <div className="lbox-container">
-                    <div className="l-boxes">
-                        <div className="lbox-img">
-                            <img src="/images/logos/adobe.png" alt=""/>
-                        </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
-                    </div>
-                    <p className="text-[#8750f7] text-center">Adobe XD</p>
-                </div>
-                <div className="lbox-container">
-                    <div className="l-boxes">
-                        <div className="lbox-img">
-                            <img src="/images/logos/bootstrap.png" alt=""/>
-                        </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
-                    </div>
-                    <p className="text-[#8750f7] text-center">Bootstrap</p>
-                </div>
-                <div className="lbox-container">
-                    <div className="l-boxes">
-                        <div className="lbox-img">
-                            <img src="/images/logos/html.png" alt=""/>
-                        </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
-                    </div>
-                    <p className="text-[#8750f7] text-center">HTML</p>
-                </div>
-                <div className="lbox-container">
-                    <div className="l-boxes">
-                        <div className="lbox-img">
                             <img src="/images/logos/css.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">65%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">CSS</p>
                 </div>
                 <div className="lbox-container">
                     <div className="l-boxes">
                         <div className="lbox-img">
+                            <img src="/images/logos/bootstrap.png" alt=""/>
+                        </div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">60%</div>
+                    </div>
+                    <p className="text-[#8750f7] text-center">Bootstrap</p>
+                </div>
+                <div className="lbox-container">
+                    <div className="l-boxes">
+                        <div className="lbox-img">
+                            <img src="/images/logos/tailwind.png" alt=""/>
+                        </div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">60%</div>
+                    </div>
+                    <p className="text-[#8750f7] text-center">Tailwind</p>
+                </div>
+                <div className="lbox-container">
+                    <div className="l-boxes">
+                        <div className="lbox-img">
                             <img src="/images/logos/mysql.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">60%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">MySQL</p>
                 </div>
@@ -127,7 +109,7 @@ const Skills = () => {
                         <div className="lbox-img">
                             <img src="/images/logos/mongodb.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">60%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">MongoDB</p>
                 </div>
@@ -136,9 +118,36 @@ const Skills = () => {
                         <div className="lbox-img">
                             <img src="/images/logos/postgre.png" alt=""/>
                         </div>
-                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">92%</div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">50%</div>
                     </div>
                     <p className="text-[#8750f7] text-center">PostgreSQL</p>
+                </div>
+                <div className="lbox-container">
+                    <div className="l-boxes">
+                        <div className="lbox-img">
+                            <img src="/images/logos/wordpress.png" alt=""/>
+                        </div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">80%</div>
+                    </div>
+                    <p className="text-[#8750f7] text-center">WordPress</p>
+                </div>
+                <div className="lbox-container">
+                    <div className="l-boxes">
+                        <div className="lbox-img">
+                            <img src="/images/logos/figma.png" alt=""/>
+                        </div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">50%</div>
+                    </div>
+                    <p className="text-[#8750f7] text-center">Figma</p>
+                </div>
+                <div className="lbox-container">
+                    <div className="l-boxes">
+                        <div className="lbox-img">
+                            <img src="/images/logos/adobe.png" alt=""/>
+                        </div>
+                        <div className="text-xl text-[#747779] font-bold ease-in-out duration-500" id="txt-percent">70%</div>
+                    </div>
+                    <p className="text-[#8750f7] text-center">Adobe XD</p>
                 </div>
             </div>
           </div>
