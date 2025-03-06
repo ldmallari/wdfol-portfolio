@@ -43,11 +43,11 @@ const Projects = () => {
 
           <div className="projCol2">
             <div>
-              <p className="text-sm sm:text-base md:text-lg">Client</p>
-              <p className="text-sm sm:text-base md:text-lg">{project.category}</p>
+              <p className="text-sm sm:text-base md:text-lg">Date</p>
+              <p className="text-sm sm:text-base md:text-lg">{project.date}</p>
             </div>
             <div>
-              <p className="text-sm sm:text-base md:text-lg">Client</p>
+              <p className="text-sm sm:text-base md:text-lg">Category</p>
               <p className="text-sm sm:text-base md:text-lg">{project.category}</p>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Projects = () => {
               {project.images.filter(img => img).map((img, index) => (
                 <SwiperSlide key={index}>
                   <PhotoView src={img}>
-                    <img src={img} alt="" />
+                  <img src={img} alt="" className="w-full max-h-[200px] object-cover"/>
                   </PhotoView>
                 </SwiperSlide>
               ))}

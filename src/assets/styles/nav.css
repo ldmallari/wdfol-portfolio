@@ -15,6 +15,10 @@ header{
     --d: 100%;
     --p: 100%;
 }
-#navbarCollapse{
-    z-index: 11;
+@media (max-width: 959px){
+    #navbarCollapse{
+        z-index: 11;
+        background: #0F0715;
+        border: 1px solid rgb(135 80 247);
+    }
 }

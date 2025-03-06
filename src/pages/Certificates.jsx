@@ -41,7 +41,7 @@ const Certificates = () => {
                             <PhotoView src={certs.image}>
                             <a className="previewBtn"><FontAwesomeIcon icon={faLink} className='faIcons'/>Preview</a>
                             </PhotoView>
-                            <a href={certs.image} className="downBtn" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
+                            <a href={certs.file} className="downBtn" download><FontAwesomeIcon icon={faDownload} className='faIcons'/>Download</a>
                         </div>
                     </div>
                 </div>

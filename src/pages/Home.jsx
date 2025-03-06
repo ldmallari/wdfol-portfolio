@@ -155,12 +155,47 @@ export default function Home() {
                     <div
                         className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-2 flex flex-col gap-y-10 justify-between"><a href="https://www.fiverr.com/yujii_" target='_blank'>
                         <div className="flex flex-col gap-y-3.5">
-                        <p className="font-bold text-xl text-white">title</p>
+                        <p className="font-bold text-xl text-white">Discord Bot Development</p>
                         <p className="font-base text-white text-sm mb-4">
-                            Levin is a highly professional coder and a pleasure to work with. He ensured that the Discord bot functioned flawlessly and without any issues, demonstrating his attention to detail and technical expertise. Throughout our collaboration, Levin was proactive in identifying potential challenges and quick to address any problems that arose. His communication skills and commitment to delivering high-quality work made the entire process smooth and efficient. I highly recommend him for any coding projects and look forward to working with him again in the future.
+                        Thanks you’re the best! I can’t wait to share the server I think some people will be happy to sing on it.
                         </p>
                         </div>
                         <div className="flex flex-col"><img src="/images/user1.png" alt="Emily Smith" className="h-10 w-10"/>
+                        <p className="pt-2 text-sm font-semibold text-white">ChocoPuffMemelord</p>
+                        <div className="flex items-center space-x-1">
+                            <p className="text-sm font-medium text-slate-100/70">Client - </p>
+                            
+                            <div className="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
+                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
+                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
+                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
+                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
+                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
+                            </svg>
+                            </div>
+                        </div>
+                        </div></a>
+                    </div>
+                    <div
+                        className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-3 flex flex-col gap-y-10 justify-between"><a href="https://www.fiverr.com/yujii_" target='_blank'>
+                        <div className="flex flex-col gap-y-3.5">
+                        <p className="font-bold text-xl text-white">
+                        Discord Bot Development
+                        </p>
+                        <p className="font-base text-white text-sm mb-4">
+                        Levin is a highly professional coder and a pleasure to work with. He ensured that the Discord bot functioned flawlessly and without any issues, demonstrating his attention to detail and technical expertise. Throughout our collaboration, Levin was proactive in identifying potential challenges and quick to address any problems that arose. His communication skills and commitment to delivering high-quality work made the entire process smooth and efficient. I highly recommend him for any coding projects and look forward to working with him again in the future.
+                        </p>
+                        </div>
+                        <div className="flex flex-col"><img src="/images/user2.png" alt="Michael Johnson" className="h-10 w-10"/>
                         <p className="pt-2 text-sm font-semibold text-white">gamingwithga179</p>
                         <div className="flex items-center space-x-1">
                             <p className="text-sm font-medium text-slate-100/70">Client - </p>
@@ -189,49 +224,14 @@ export default function Home() {
                         className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-3 flex flex-col gap-y-10 justify-between"><a href="https://www.fiverr.com/yujii_" target='_blank'>
                         <div className="flex flex-col gap-y-3.5">
                         <p className="font-bold text-xl text-white">
-                            title
+                        Discord Bot Development
                         </p>
                         <p className="font-base text-white text-sm mb-4">
-                            desc
-                        </p>
-                        </div>
-                        <div className="flex flex-col"><img src="/images/user2.png" alt="Michael Johnson" className="h-10 w-10"/>
-                        <p className="pt-2 text-sm font-semibold text-white">Name</p>
-                        <div className="flex items-center space-x-1">
-                            <p className="text-sm font-medium text-slate-100/70">Client - </p>
-                            
-                            <div className="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
-                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
-                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
-                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
-                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-yellow-400" viewBox="0 0 24 24">
-                                <path d="M12 2l3 7h7l-5 5 2 7-6-4-6 4 2-7-5-5h7z"/>
-                            </svg>
-                            </div>
-                        </div>
-                        </div></a>
-                    </div>
-                    <div
-                        className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-3 flex flex-col gap-y-10 justify-between"><a href="https://www.fiverr.com/yujii_" target='_blank'>
-                        <div className="flex flex-col gap-y-3.5">
-                        <p className="font-bold text-xl text-white">
-                            title
-                        </p>
-                        <p className="font-base text-white text-sm mb-4">
-                            desc
+                        Levin did a fantastic job! I'm such a noob, and my bot is AMAZING! He was so patient with me and took the time to test the bot with me to make sure it was perfectly what I needed. I'm so HAPPY!! Yes it's a lot of caps, and they really are well deserved! Thank you SO MUCH for your patience and for going above and beyond, it really exceeded my expectations.
                         </p>
                         </div>
                         <div className="flex flex-col"><img src="/images/user3.png" alt="Sarah Brown" className="h-10 w-10"/>
-                        <p className="pt-2 text-sm font-semibold text-white">Name</p>
+                        <p className="pt-2 text-sm font-semibold text-white">peixe7</p>
                         <div className="flex items-center space-x-1">
                             <p className="text-sm font-medium text-slate-100/70">Client - </p>
                             
@@ -259,14 +259,14 @@ export default function Home() {
                         className="border p-7 rounded-xl bg-transparent drop-shadow-md border-[#2C1557] col-span-2 flex flex-col gap-y-10 justify-between"><a href="https://www.fiverr.com/yujii_" target='_blank'>
                         <div className="flex flex-col gap-y-3.5">
                         <p className="font-bold text-xl text-white">
-                            title
+                        Discord Bot Development
                         </p>
                         <p className="font-base text-white text-sm mb-4">
-                            Levin did a fantastic job! I'm such a noob, and my bot is AMAZING! He was so patient with me and took the time to test the bot with me to make sure it was perfectly what I needed. I'm so HAPPY!! Yes it's a lot of caps, and they really are well deserved! Thank you SO MUCH for your patience and for going above and beyond, it really exceeded my expectations.
+                        Thanks to your work and my knowledge of javascript I was able to add a few more options!
                         </p>
                         </div>
                         <div className="flex flex-col"><img src="/images/user4.png" alt="James White" className="h-10 w-10"/>
-                        <p className="pt-2 text-sm font-semibold text-white">peixe7</p>
+                        <p className="pt-2 text-sm font-semibold text-white">UltraLion</p>
                         <div className="flex items-center space-x-1">
                             <p className="text-sm font-medium text-slate-100/70">Client - </p>
                             
