@@ -1,17 +1,21 @@
 const projects = [
-    { 
+    {
         pId: "1", 
         category: "Development",
         title: "Tatak Lokal",
-        shortdesc: "This is a sample short description.",
-        date:"January 22, 2024", 
-        description:"This is a sample short description. This is a sample short description. This is a sample short description.",
-        liveLink:"https://github.com/ldmallari/tatak-lokal-webpub", 
-        prevLink:"", 
-        nextLink:"", 
-        image:"/images/projects/tataklokal.png", 
-        images: ["/images/projects/tataklokal.png", "/images/projects/tataklokal.png", "/images/projects/tataklokal.png"]
-    },
+        shortdesc: "A community-driven platform promoting local businesses and artisans.",
+        date: "January 22, 2024", 
+        description: "Tatak Lokal is a web-based platform dedicated to supporting and showcasing local businesses, artisans, and entrepreneurs. Built with a responsive and modern design, the website provides an engaging experience for users looking to explore, support, and connect with homegrown brands. The platform features an intuitive interface, product listings, and business profiles, making it easier for local enterprises to gain visibility.",
+        liveLink: "https://github.com/ldmallari/tatak-lokal-webpub", 
+        prevLink: "", 
+        nextLink: "", 
+        image: "/images/projects/tataklokal.png", 
+        images: [
+            "/images/projects/tataklokal.png", 
+            "/images/projects/tataklokal.png", 
+            "/images/projects/tataklokal.png"
+        ]
+    },    
     {
         pId: "2", 
         category: "Development",
