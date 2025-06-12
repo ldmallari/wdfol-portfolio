@@ -9,7 +9,7 @@ const projects = [
         liveLink: "https://theangelite.net/", 
         prevLink: "", 
         nextLink: "", 
-        image: "/images/projects/angelite.png", 
+        image: "/images/projects/angelite.jpg", 
         images: [
             "/images/projects/angelite_home.png", 
             "/images/projects/angelite_page.png"
@@ -25,7 +25,7 @@ const projects = [
         liveLink: "https://internstreetph.site/", 
         prevLink: "", 
         nextLink: "", 
-        image: "/images/projects/internstreet.png", 
+        image: "/images/projects/internstreet.jpg", 
         images: [
             "/images/projects/internstreet_home.png", 
             "/images/projects/internstreet_admin1", 
@@ -117,9 +117,9 @@ const projects = [
         nextLink: "", 
         image: "/images/projects/tataklokal.png", 
         images: [
-            "/images/projects/tataklokal.png", 
-            "/images/projects/tataklokal.png", 
-            "/images/projects/tataklokal.png"
+            "/images/projects/tatak_about.png", 
+            "/images/projects/tatak_contact.png", 
+            "/images/projects/tatak_cart.png"
         ]
     },  
 ]
