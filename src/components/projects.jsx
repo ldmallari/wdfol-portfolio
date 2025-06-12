@@ -28,10 +28,11 @@ const projects = [
         image: "/images/projects/internstreet.jpg", 
         images: [
             "/images/projects/internstreet_home.png", 
-            "/images/projects/internstreet_admin1", 
-            "/images/projects/internstreet_admin2",
-            "/images/projects/internstreet_admin3",
-            "/images/projects/internstreet_admin4"
+            "/images/projects/internstreet_admin.jpg",
+            "/images/projects/internstreet_admin1.jpg", 
+            "/images/projects/internstreet_admin2.jpg",
+            "/images/projects/internstreet_admin3.jpg",
+            "/images/projects/internstreet_admin4.jpg"
         ]
     },
     {
