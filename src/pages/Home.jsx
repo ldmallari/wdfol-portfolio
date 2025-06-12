@@ -70,7 +70,7 @@ export default function Home() {
                         </li>
                         <li className='dl-resume'>
                             <a
-                            href="../src/assets/files/LDM-Resume.pdf"
+                            href="/mallarilevin_resume.pdf"
                             id="dl-resume" className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-normal text-white"
                             download>
                             <FontAwesomeIcon icon={faDownload} className='faDownload'/>Download Resume
