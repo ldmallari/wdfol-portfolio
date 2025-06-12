@@ -183,7 +183,7 @@ const ContactTextArea = ({ row, placeholder, name, value, onChange}) => {
   );
 };
 const sendMessageToDiscord = async (formData) => {
-    const webhookURL = '';
+    const webhookURL = 'https://discord.com/api/webhooks/1334140933133832204/MWgRvhIF6AcFTSKylKmR8L47hxg_gJ0kHVdx-u5JmFlbo93TkayfiHhYVSK4fKAkIzIE';
     const firstEntry = Object.values(formData);
     console.log(firstEntry[1]);
 
