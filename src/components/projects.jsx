@@ -28,6 +28,7 @@ const projects = [
         image: "/images/projects/internstreet.jpg", 
         images: [
             "/images/projects/internstreet_home.png", 
+            "/images/projects/internstreet_find.png",
             "/images/projects/internstreet_admin.jpg",
             "/images/projects/internstreet_admin1.jpg", 
             "/images/projects/internstreet_admin2.jpg",
